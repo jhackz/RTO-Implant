@@ -1,6 +1,4 @@
 // RTO Implant.cpp : Defines the entry point for the application.
-
-
 #include "z85.h"
 #include "framework.h"
 #include "RTO Implant.h"
@@ -73,7 +71,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         return pid;
     }
 
-    // Process found proceed with MsgBox shellcode Execution 
+    // Process found, continue with MsgBox shellcode execution 
     else
     {
         // Did our shellcode get executed
